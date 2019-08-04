@@ -36,7 +36,7 @@ h4 {
 
 h5 {
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 p {
@@ -44,6 +44,11 @@ p {
   font-weight: thin;
   font-size: 16px;
   text-align: left;
+}
+
+p .bold {
+  font-weight: 900;
+  font-family: "Montserrat-Bold";
 }
 
 a {
@@ -73,7 +78,7 @@ a {
   background-color: #ddeff6;
   /* margin: 0 auto; */
   display: block;
-  max-width: 220px;
+  max-width: 330px;
   font-style: Montserrat-Bold;
   font-size: 20px;
   margin-top: 10px;
@@ -541,11 +546,16 @@ a:active {
 }
 
 .process-container .card-img-top {
-  max-height: 300px;
+  max-height: 200px;
   width: auto;
   margin: 0 auto;
   display: block;
+  padding-top: 30px;
 }
+
+/* .process-container .row {
+  padding-top: 30px;
+} */
 
 /* ****************************** */
 /* Contact/About*/
