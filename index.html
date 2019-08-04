@@ -37,6 +37,10 @@
       href="https://fonts.googleapis.com/css?family=Poppins:400,700"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Font Awesome Link -->
     <link
@@ -148,7 +152,7 @@
                   role="button"
                   data-toggle="modal"
                   data-target="#getStartedModal"
-                  >Let's Begin</a
+                  >LET'S BEGIN</a
                 >
               </p>
             </div>
@@ -391,32 +395,95 @@
     <!-- Begin About/Contact Section -->
     <div id="Contact">
       <div class="jumbotron-about jumbotron-fluid">
-        <div class="container-about">
-          <div class="row-container">
-            <div class="col-md-12 col-lg-6 col-xlg-7">
-              <img
-                class="img-profile animated flipInY"
-                src="images/aubrey-icon-ilus.png"
-              />
-            </div>
-            <div class="col-md-12 col-lg-6 col-xlg-5">
-              <h1 class="text-center animated flipInY">Contact</h1>
-              <hr class="my-2" />
-              <p class="text-center animated flipInY">
-                I'm a freelance creative based in Los Angeles, CA, who is
-                willing to work on projects remotely or in-person (if in LA)
-              </p>
-              <p class="text-center animated flipInY">
-                responsive web design, design-thinking, prototyping, branding,
-                development, research
-              </p>
+        <div class="row">
+          <div class="col-md-12 col-lg-6 col-xlg-5">
+            <h1 class="text-center animated flipInY">GET IN<br />TOUCH</h1>
+            <hr class="my-2" />
+          </div>
+          <div class="col-md-12 col-lg-6 col-xlg-7">
+            <!-- ********************************************************* -->
+            <!-- Email Send Modal -->
+            <!-- ********************************************************* -->
+            <!--  -->
 
-              <a
-                class="btn btn-text btn-outline-primary btn-lg animated flipInY rubberBand"
-                href="mailto:youplusmeequalsme@gmail.com"
-                role="button"
-                >Email Me!
-              </a>
+            <!-- Add a Form with a "Send Email" Button -->
+            <form class="m-4" style="width: 80%">
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="firstName"
+                  placeholder="First Name"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="lastName"
+                  placeholder="Last Name"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="eMail">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="eMail"
+                  placeholder="Email"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="5"></textarea>
+              </div>
+
+              <!-- Button that triggers modal -->
+              <button
+                id="sendEmail"
+                type="button"
+                class="btn btn-outline-primary"
+                data-toggle="modal"
+                data-target="#sentMessage"
+              >
+                SUBMIT
+              </button>
+            </form>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="sentMessage"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalLongTitle"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <h3>Thanks for the message!</h3>
+                    <p>
+                      I will respond back within 1-2 business days.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      id="confirmDismiss"
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -428,149 +495,6 @@
 
     <!-- End Page Container Div Below -->
     <!-- </div> -->
-
-    <!-- ********************************************************* -->
-    <!-- Email Send Modal -->
-    <!-- ********************************************************* -->
-    <!-- <div class="modal fade" id="emailModal" tabindex="-1" role="dialog">
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content"> -->
-    <!-- Modal Header -->
-    <!-- <div class="modal-header">
-            <h5 class="modal-title">
-              To get started, please fill in the information below and describe
-              the project you are looking to accomplish. I'll be in contact
-              within 1-2 business days.
-            </h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div> -->
-
-    <!-- Modal Body with Form -->
-    <!-- <div class="modal-body">
-            <form>
-              <div class="form-group">
-                <label for="inputName">Your Name</label>
-                <input type="text" class="form-control" id="inputName" />
-              </div>
-              <div class="form-group">
-                <label for="inputEmail">Contact Email Address</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="inputEmail"
-                  aria-described
-                  by="emailHelp"
-                />
-                <small id="emailHelp" class="form-text text-muted"
-                  >We'll never share your email with anyone else.</small
-                >
-              </div>
-
-              <div class="form-group">
-                <label for="message-text" class="col-form-label"
-                  >Message:</label
-                >
-                <textarea class="form-control" id="message-text"></textarea>
-              </div>
-            </form>
-          </div> -->
-
-    <!-- Modal Footer -->
-    <!-- <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-dismiss="modal"
-            >
-              Submit
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  -->
-
-    <!-- Add a Form with a "Send Email" Button -->
-    <!-- <form class="m-4" style="width: 40%">
-      <div class="form-group">
-        <label for="firstName">First Name</label>
-        <input
-          type="text"
-          class="form-control"
-          id="firstName"
-          placeholder="First Name"
-        />
-      </div>
-
-      <div class="form-group">
-        <label for="lastName">Last Name</label>
-        <input
-          type="text"
-          class="form-control"
-          id="lastName"
-          placeholder="Last Name"
-        />
-      </div>
-
-      <div class="form-group">
-        <label for="eMail">Email</label>
-        <input
-          type="email"
-          class="form-control"
-          id="eMail"
-          placeholder="Email"
-        />
-      </div>
-
-      <div class="form-group">
-        <label for="message">Message</label>
-        <textarea class="form-control" id="message" rows="5"></textarea>
-      </div> -->
-
-    <!-- Button that triggers modal -->
-    <!-- <button
-        id="sendEmail"
-        type="button"
-        class="btn btn-primary"
-        data-toggle="modal"
-        data-target="#sentMessage"
-      >
-        Send Email
-      </button>
-    </form> -->
-
-    <!-- Modal -->
-    <!-- <div
-      class="modal fade"
-      id="sentMessage"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="exampleModalLongTitle"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-body"></div>
-          <div class="modal-footer">
-            <button
-              id="confirmDismiss"
-              type="button"
-              class="btn btn-secondary"
-              data-dismiss="modal"
-            >
-              Close
-            </button>
-          </div>
-        </div>
-      </div>
-    </div> -->
 
     <!-- ********************************************************* -->
     <!-- Begin Footer Section -->

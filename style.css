@@ -10,7 +10,7 @@ STYLESHEET */
 /* ****************************** */
 
 h1 {
-  font-family: Montessaret;
+  font-family: "Montserrat", sans-serif;
   font-weight: 200;
   font-size: 48px;
   text-align: left;
@@ -23,31 +23,31 @@ h2 {
 }
 
 h3 {
-  font-family: Ubuntu, Open Sans, Sans Serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 24px;
   text-align: left;
 }
 
 h4 {
-  font-family: Helvetica Neue, Open Sans, Sans Serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: thin;
   font-size: 20px;
 }
 
 h5 {
-  font-family: Ubuntu, Open Sans, Sans Serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
 }
 
 p {
-  font-family: Ubuntu, Open Sans, Sans Serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: thin;
   font-size: 16px;
   text-align: left;
 }
 
 a {
-  font-family: Ubuntu, Open Sans, Sans Serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
 }
 
@@ -398,7 +398,7 @@ a:active {
 }
 
 .card-grid p {
-  color: white;
+  color: #41504d;
   font-weight: 400;
   font-size: 16px;
   align-self: end;
@@ -564,18 +564,15 @@ a:active {
   /* animation-iteration-count: infinite; */
 }
 
-/* Jumbotron Content */
+/* Contact Jumbotron Content */
 .jumbotron-about {
-  height: 500px;
+  height: 600px;
   padding: 30px;
-}
-
-.container-about {
   background-color: lightblue;
-  height: 440px;
+  background-image: url("footer.png");
 }
 
-.row-container {
+.jumbotron-about .row {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -597,6 +594,8 @@ a:active {
 }
 
 .jumbotron-about h1 {
+  font-size: 58px;
+  font-family: "Montserrat", sans-serif;
   margin-top: 50px;
   padding: 10px;
 }
@@ -615,16 +614,18 @@ a:active {
   }
 
   .jumbotron-about {
+    background-image: url("footer.png");
     background-color: lightblue;
     margin-top: 10px;
     margin-bottom: 30px;
+    padding: 10px;
     height: 500px;
   }
-  .container-about {
-    background-color: lightblue;
+  /* .container-about {
     margin-top: 10px;
-  }
-  .row-container {
+  } */
+
+  .jumbotron-about .row {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -639,7 +640,7 @@ a:active {
     height: 725px;
   }
 
-  .row-container {
+  .jumbotron-about .row {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -700,7 +701,7 @@ a:active {
 /* ****************************** */
 
 .footer {
-  background-color: lightpink;
+  background-color: #5cac5f;
   padding: 10px;
 }
 
@@ -729,6 +730,7 @@ a:active {
   max-height: 100px;
   display: block;
   margin: 0 auto;
+  padding-top: 20px;
 }
 
 /* footer iconography */
