@@ -18,21 +18,27 @@
     <!-- CSS Stylesheet Link -->
     <link rel="stylesheet" href="style.css" />
 
-    
     <!-- Animate.CSS Link -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"> 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-
-
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    />
 
     <!-- Google Fonts Link -->
     <link
       href="https://fonts.googleapis.com/css?family=Ubuntu"
       rel="stylesheet"
-    >
-<link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
-    
-<!-- Font Awesome Link -->
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,700"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Link -->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
@@ -59,7 +65,7 @@
         <a class="navbar-brand" href="#"
           ><img
             src="images/youplusme_logo_web.png"
-            height="64px"
+            height="64"
             alt="logo homepage link"
             class=""
           />
@@ -77,22 +83,31 @@
         </button>
         <div class="collapse navbar-collapse" id="navbar-scroll">
           <ul class="nav nav-tabs" role="tablist">
-  
-            <li class="nav-item"><a class="nav-link" href="#Work">Services</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Services">Services</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="#Process">Process</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://www.behance.net/youplusme" target="_blank">Case Studies</a>
+              <a
+                class="nav-link"
+                href="https://www.behance.net/youplusme"
+                target="_blank"
+                >Case Studies</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#Contact">Contact</a>
             </li>
-            <li> <a href="https://www.instagram.com/youplusme_equalswe/">
-              <i class="fab fa-instagram" aria-hidden="true"></i>
-            </a>
-          </li>
-           
+            <li>
+              <a
+                href="https://www.instagram.com/youplusme_equalswe/"
+                target="_blank"
+              >
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+              </a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -104,36 +119,45 @@
     <!-- ********************************************************* -->
     <!--Begin Jumbotron Section  -->
     <!-- Jumbotron/Hero Area -->
-    <div class="jumbotron jumbotron-fluid" id="About">
-      <div class="parallax">
-        <div class="parallax__layer parallax__layer--back">
+    <div class="jumbotron-hero" id="Home">
+      <div>
+        <!-- <div class="parallax__layer parallax__layer--back">
             <img class="parallax_object" 
             src="images/jumbotron_ux design.png">
-        </div>
-          
-          <div class="jumbotron-padding parallax__layer parallax__layer--base">
-  
-              <h1 class="jumbotron-h1 headline">UX/UI Design & Illustration</h1>
+        </div> -->
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="jumbotron-padding">
+              <h1 class="jumbotron-h1 headline">
+                UX/UI Design & Illustration
+              </h1>
               <h2 class="jumbotron-h2 headline">You + Me = WE</h2>
               <hr class="my-2-hero" />
-            
+
               <p class="jumbotron-text">
-                I am a freelance ceative dedicated to user-experience research, responsive web-design, user-friendly applications, and pioneering within virtual and augmented reality.               </p>
-      
+                I am a freelance ceative dedicated to user-experience research,
+                responsive web-design, user-friendly applications, and
+                pioneering within virtual and augmented reality.
+              </p>
+
               <p class="jumbotron-text">
                 <a
-                  class="btn btn-text btn-outline-primary btn-lg"
+                  class="btn btn-outline-primary btn-lg"
                   href="#"
                   role="button"
                   data-toggle="modal"
                   data-target="#getStartedModal"
-                  >Let's Start This!</a
+                  >Let's Begin</a
                 >
               </p>
             </div>
+          </div>
+          <div class="col-lg-6">
+            <img class="jumbotron-img" src="images/jumbotron_ux design.png" />
+          </div>
+        </div>
       </div>
-     
-      <div id="down-page-arrow"><i class="fa fa-arrow-down" aria-hidden="true"></i>"></i></div>
     </div>
     <!-- End Jumbotron Section -->
     <!-- ********************************************************* -->
@@ -178,8 +202,8 @@
                   by="emailHelp"
                 />
                 <small id="emailHelp" class="form-text text-muted"
-                  >We'll never share your email with anyone else.</small
-                >
+                  >We'll never share your email with anyone else.
+                </small>
               </div>
 
               <div class="form-group">
@@ -205,90 +229,78 @@
       </div>
     </div>
 
-
-  
-
-
-      <!-- ********************************************************* -->
-      <!--  Begin Cards Section -->
-      <div id="Work" class="portfolio">
+    <!-- ********************************************************* -->
+    <!--  Begin Cards Section -->
+    <div id="Services" class="portfolio">
+      <div class="container">
         <h1 class="text-left">Services</h1>
         <hr class="my-2" />
         <p class="portfolio-summary-text">
-          We offer a variety of UX design solutions
+          Your Vision + Our Design = The Ultimate User Experience!
         </p>
         <div class="portfolio-container">
           <div class="container">
-
-
             <!-- Begin Code Pen Cards Section -->
             <div class="container-grid">
-                <div class="card-grid">
-                  <img src="images/responsive websites.png" />
-                  <h3>Responsive Websites</h3>                  
-                </div>
-              
-                <div class="card-grid">
-                  <img src="images/vr_ar.png" />
-                  <h3>Virtual & Augmented Reality</h3>
-                  <p>Card description</p>
-                </div>
-              
-                <div class="card-grid">
-                  <img src="images/app_design.png" />
-                  <h3>App Design</h3>
-                  <p>Card description</p>
-                </div>
-                <div class="card-grid">
-                  <img src="images/illustration_graphic.png" />
-                  <h3>Graphic Design</h3>
-                  <p>Card description</p>
-                </div>
-                <div class="card-grid">
-                  <img src="images/voice_interfaces.png" />
-                  <h3>Voice Interfaces</h3>
-                  <p>card description</p>
-                </div>
-                <div class="card-grid">
-                  <img src="Images/social media marketing.png" />
-                  <h3>Social-Media Marketing</h3>
-                  <p>Card description</p>
-                </div>
-                
+              <div class="card-grid">
+                <img src="images/responsive websites.png" />
+                <h3>Responsive Websites</h3>
               </div>
 
-          
-         
-          
+              <div class="card-grid">
+                <img src="images/vr_ar.png" />
+                <h3>Virtual & Augmented Reality</h3>
+                <p>Card description</p>
+              </div>
+
+              <div class="card-grid">
+                <img src="images/app_design.png" />
+                <h3>App Design</h3>
+                <p>Card description</p>
+              </div>
+              <div class="card-grid">
+                <img src="images/illustration_graphic.png" />
+                <h3>Graphic Design</h3>
+                <p>Card description</p>
+              </div>
+              <div class="card-grid">
+                <img src="images/voice_interfaces.png" />
+                <h3>Voice Interfaces</h3>
+                <p>card description</p>
+              </div>
+              <div class="card-grid">
+                <img src="Images/social media marketing.png" />
+                <h3>Social-Media Marketing</h3>
+                <p>Card description</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <!-- End Cards Section -->
       <!-- ********************************************************* -->
 
-
-       <!-- ********************************************************* -->
+      <!-- ********************************************************* -->
       <!-- Begin Process Section -->
 
       <div id="Process" class="process">
-        <h1 class="text-left">Process</h1>
-        <hr class="my-2" />
-        <p class="process-summary-text">
-          I include user-centered design thinking, creativity, and collaboration throughout!
-        </p>
-        <div class="process-container">
-          <div class="row align-items-center">
-            <!-- Exploration  -->
-            <div class="col">
-          
-      
-                  <img
-                    class="card-img-top"
-                    src="images/exploration-05.png"
-                    alt="Card image cap"
-                  />
-                  
-                  
-                
+        <div class="container">
+          <h1 class="text-left">Process</h1>
+          <hr class="my-2" />
+          <p class="process-summary-text">
+            I include user-centered design thinking, creativity, and
+            collaboration throughout!
+          </p>
+          <div class="process-container">
+            <div class="row align-items-center">
+              <!-- Exploration  -->
+              <div class="col">
+                <img
+                  class="card-img-top"
+                  src="images/exploration-05.png"
+                  alt="Card image cap"
+                />
+
                 <div class="card-process-body">
                   <h3 class="card-title-process">Exploration</h3>
                   <div class="row">
@@ -301,112 +313,80 @@
                     </ul>
                   </div>
                 </div>
-                  
-        
-              
-            </div>
-
-            <!-- Ideation  -->
-              <div class="col">
-
-                    <img
-                      class="card-img-top"
-                      src="images/ideation-03.png"
-                      alt="Card image cap"
-                    />
-
-                  <div class="card-body">
-                    <h3 class="card-title-process">Ideation</h3>
-                    <div class="row">
-                      <ul class="process-tasks col">
-                        <li>User Flows</li>
-                        <li>Storyboards</li>
-                        <li>Moodboards</li>
-                        <li>Usability Heuristics</li>
-                        <li>Sketches</li>
-                        <li>User Scenarios</li>
-                      </ul>
-                    </div>
-                  </div>
-                    
               </div>
 
+              <!-- Ideation  -->
+              <div class="col">
+                <img
+                  class="card-img-top"
+                  src="images/ideation-03.png"
+                  alt="Card image cap"
+                />
 
-
-                <!-- Iteration -->
-
-                <div class="col">
-                   
-                        <img
-                          class="card-img-top"
-                          src="images/iteration-04.png"
-                          alt="Card image cap"
-                        />
-                    
-                      
-                      <div class="card-body">
-                        <h3 class="card-title-process">Iteration</h3>
-                        <div class="row">
-                          <ul class="process-tasks col">
-                            <li>Wireframes</li>
-                            <li>Prototypes</li>
-                            <li>User Testing</li>
-                            <li>Atomic Design</li>
-                            <li>MVP</li>
-                          </ul>
-                        </div>
-                        
-                    </div> 
-                 
+                <div class="card-body">
+                  <h3 class="card-title-process">Ideation</h3>
+                  <div class="row">
+                    <ul class="process-tasks col">
+                      <li>User Flows</li>
+                      <li>Storyboards</li>
+                      <li>Moodboards</li>
+                      <li>Usability Heuristics</li>
+                      <li>Sketches</li>
+                      <li>User Scenarios</li>
+                    </ul>
+                  </div>
                 </div>
+              </div>
 
+              <!-- Iteration -->
 
+              <div class="col">
+                <img
+                  class="card-img-top"
+                  src="images/iteration-04.png"
+                  alt="Card image cap"
+                />
 
+                <div class="card-body">
+                  <h3 class="card-title-process">Iteration</h3>
+                  <div class="row">
+                    <ul class="process-tasks col">
+                      <li>Wireframes</li>
+                      <li>Prototypes</li>
+                      <li>User Testing</li>
+                      <li>Atomic Design</li>
+                      <li>MVP</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-
-
-
-
-</div>
-
-
-
-
-            
-
-            
-           
-   <!-- Collaboration -->
-   <div class="row">
-    <div class="col-12">
-        
-                  
-          <img
-            class="card-img-top"
-            src="images/collaboration-02.png"
-            alt="Card image cap"
-          />      
-          <div class="card-body">
-            <h3 class="card-title-process">Collaboration</h3>
+            <!-- Collaboration -->
             <div class="row">
-              <ul class="process-tasks col-12">
-                <li>Teamwork</li>
-                <li>Listening</li>
-                <li>Leadership</li>
-                <li>Design Sprints</li>
-                <li>Agile Workflows</li>
-              </ul>
+              <div class="col-12">
+                <img
+                  class="card-img-top"
+                  src="images/collaboration-02.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h3 class="card-title-process">Collaboration</h3>
+                  <div class="row">
+                    <ul class="process-tasks col-12">
+                      <li>Teamwork</li>
+                      <li>Listening</li>
+                      <li>Leadership</li>
+                      <li>Design Sprints</li>
+                      <li>Agile Workflows</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-            
-    
-      
-    </div>
-
-</div>         
-</div>
-</div>
-        
+        </div>
+      </div>
 
       <!-- ********************************************************* -->
       <!-- Begin About/Contact Section -->
@@ -415,7 +395,10 @@
           <div class="container-about">
             <div class="row-container">
               <div class="col-md-12 col-lg-6 col-xlg-7">
-                <img class="img-profile animated flipInY" src="images/aubrey-icon-ilus.png" />
+                <img
+                  class="img-profile animated flipInY"
+                  src="images/aubrey-icon-ilus.png"
+                />
               </div>
               <div class="col-md-12 col-lg-6 col-xlg-5">
                 <h1 class="text-center animated flipInY">Contact</h1>
@@ -593,11 +576,11 @@
     <!-- ********************************************************* -->
     <!-- Begin Footer Section -->
     <div id="Footer" class="footer">
-      <row>
-        <img src="images/youplusme_logo_web.png">
-      </row>
       <div>
-        <row class="social-icons-footer">
+        <img src="images/youplusme_logo_web.png" />
+      </div>
+      <div>
+        <div class="social-icons-footer">
           <a href="https://www.linkedin.com/in/aubrey-ingmar-manson-61785947/">
             <i class="fab fa-linkedin-in"></i>
           </a>
@@ -608,7 +591,7 @@
             <i class="fab fa-instagram" aria-hidden="true"></i>
           </a>
           <h5 class="col-12">Copyright 2019 Equals We</h5>
-        </row>
+        </div>
       </div>
     </div>
     <!-- End Footer Section -->
